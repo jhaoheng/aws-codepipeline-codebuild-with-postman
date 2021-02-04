@@ -28,6 +28,6 @@ reports:
   Reports: # CodeBuild will create a report group called "SurefireReports".
     files: #Store all of the files
       - '**/*'
-    file-format: CUCUMBERJSON
+    file-format: SIMPLECOV
     base-directory: '02postman/newman' # Location of the reports
     
